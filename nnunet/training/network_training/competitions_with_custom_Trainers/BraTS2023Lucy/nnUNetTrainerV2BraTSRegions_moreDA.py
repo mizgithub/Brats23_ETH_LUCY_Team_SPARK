@@ -559,7 +559,7 @@ class nnUNetTrainerV2BraTSRegions_DA4_GN_BD_XL_dropout50_two_last_levels_Unet(nn
             self.network.cuda()
         self.network.inference_apply_nonlin = nn.Sigmoid()
 # class nnUNetTrainerV2BraTSRegions_DA4_BN_BD(nnUNetTrainerV2BraTSRegions_DA4_BN):
-class nnUNetTrainerV2BraTSRegions_DA4_BN_BD(nnUNetTrainerV2BraTSRegions_DA4_BN):
+class nnUNetTrainerV2BraTSRegions_DA4_BN_BD_LUCY(nnUNetTrainerV2BraTSRegions_DA4_BN_BD):
     def __init__(self):
         print("network under-construction")
     # def __init__(self, plans_file, fold, output_folder=None, dataset_directory=None, batch_dice=True, stage=None,
